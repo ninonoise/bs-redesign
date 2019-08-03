@@ -1,0 +1,103 @@
+body{
+    background-color: #252525;
+    font-family: 'Roboto', sans-serif;
+}
+.nav_black{
+    background: black;
+    background-image: url(./img/bs_back.png) !important;
+}
+.white_color{
+    color: white !important;
+}
+.white_color:hover{
+    color:#cc2030 !important;
+}
+.white_color:active{
+    color:#cc2030 !important;
+}
+.header_font{
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.header_font_slider{
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+}
+.dropdown_custom{
+    background-color: #252525;
+    color: white;
+    border: solid 1px #5d5d5d;
+}
+.dropdown_custom a{
+    color: white;
+    font-size: 19px;
+}
+.dropdown_custom a:hover{
+    background-color: #cc2030;
+}
+.links_secciones{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+}
+.links_secciones li{
+    display: inline-block;
+    background-color: #35332f;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    color: white;
+    border: solid 1px #ffffff;
+    height: 140px;
+}
+.links_secciones li:hover{
+    color: #cc2030;
+}
+footer{
+    background-color: #cc2030;
+    color: white;
+    border-bottom: solid 20px #812118;
+}
+footer ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+footer ul a{
+    color: white;
+}
+footer ul a:hover{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+}
+footer h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.toggler_custom{
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/toggler.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fondo_rojo{
+    background-color:#cc2030 !important;
+    border: 0px;
+    height: 32px;
+}
+.fondo_gris{
+    background-color:#252525 !important;
+    border: 0px;
+    color: silver !important;
+    height: 32px;
+    font-family: 'Roboto', sans-serif !important;
+}
+}
