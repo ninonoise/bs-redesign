@@ -1,0 +1,264 @@
+body {
+  background-color: #252525;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_black {
+  background: black;
+  background-image: url(/assets/img/bs_back.png) !important;
+  background-repeat: no-repeat;
+}
+
+.white_color {
+  color: white !important;
+}
+
+.white_color:hover {
+  color: #cc2030 !important;
+}
+
+.white_color:active {
+  color: #cc2030 !important;
+}
+
+.header_font {
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.header_font_slider {
+  font-family: "Teko", sans-serif;
+  font-size: 36px;
+}
+
+.dropdown_custom {
+  background-color: #252525;
+  color: white;
+  border: solid 1px #5d5d5d;
+}
+
+.dropdown_custom a {
+  color: white;
+  font-size: 19px;
+}
+
+.dropdown_custom a:hover {
+  background-color: #cc2030;
+}
+
+.links_secciones {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.main_dragonball {
+  width: 30vw;
+  font-family: "Teko", sans-serif;
+  font-size: 36px;
+  padding: 50px 30px;
+  color: white;
+  border-radius: 0px 12px 0px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 8px;
+  text-align: center;
+  background-image: url(/assets/img/main_dragonball.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px #812118;
+}
+
+.main_dragonball:hover {
+  border: solid 1px white;
+}
+
+.main_superheroes {
+  width: 30vw;
+  font-family: "Teko", sans-serif;
+  font-size: 36px;
+  padding: 50px 30px;
+  color: white;
+  border-radius: 0px 12px 0px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 8px;
+  text-align: center;
+  background-image: url(/assets/img/main_superheroes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px #812118;
+}
+
+.main_superheroes:hover {
+  border: solid 1px white;
+}
+
+.main_saintseiya {
+  width: 30vw;
+  font-family: "Teko", sans-serif;
+  font-size: 36px;
+  padding: 50px 30px;
+  color: white;
+  border-radius: 0px 12px 0px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 8px;
+  text-align: center;
+  background-image: url(/assets/img/main_saintseiya.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px #812118;
+}
+
+.main_saintseiya:hover {
+  border: solid 1px red;
+}
+
+footer {
+  background-color: #cc2030;
+  color: white;
+  border-bottom: solid 20px #812118;
+}
+
+footer ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+
+footer ul a {
+  color: white;
+}
+
+footer ul a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+footer h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.toggler_custom {
+  width: 24px;
+  height: 24px;
+  background-image: url(/assets/img/toggler.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fondo_rojo {
+  background-color: #cc2030 !important;
+  border: 0px;
+  height: 32px;
+}
+
+.fondo_gris {
+  background-color: #252525 !important;
+  border: 0px;
+  color: silver !important;
+  height: 32px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.product_detail {
+  display: flex;
+  flex-direction: row;
+  background-color: #181818;
+  margin: 20px;
+}
+
+.product_detail h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 38px;
+  color: #cc2030;
+}
+
+.product_detail img {
+  margin: 20px;
+  width: 350px;
+}
+
+.product_detail p {
+  margin-top: 50px;
+}
+
+.description_product_detail {
+  font-family: "Roboto", sans-serif;
+  color: #eeeeee;
+  margin: 20px;
+}
+
+.description_product_detail button {
+  background-color: #cc2030;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 12px;
+  border: solid 2px #770303;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.description_product_detail button:hover {
+  background-color: #770303;
+  border: solid 1px #770303;
+}
+
+.description_product_detail div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_detail ul {
+  color: white;
+  list-style: none;
+}
+
+.product_detail ul li {
+  width: 180px;
+  font-family: "Teko", sans-serif;
+  font-size: 24px;
+  background-color: #252525;
+  padding: 0px 6px;
+  color: white;
+  border-radius: 0px 8px 0px 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 8px;
+  text-align: center;
+}
+
+.product_detail ul li:hover {
+  background-color: #cc2030;
+}
+
+/*
+nav{
+    height: 20vh;
+    width: 100%;
+    background-color: $red_blackseller;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        a{
+            color:$primary-primary-color;
+            text-decoration:none;
+        }
+}
+*/
+
+/*# sourceMappingURL=main.css.map */
