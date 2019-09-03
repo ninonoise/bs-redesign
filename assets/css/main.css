@@ -73,7 +73,7 @@ body {
 }
 
 .main_dragonball:hover {
-  border: solid 1px white;
+  border: solid 1px #ff3131;
 }
 
 .main_superheroes {
@@ -95,7 +95,7 @@ body {
 }
 
 .main_superheroes:hover {
-  border: solid 1px white;
+  border: solid 1px #ff3131;
 }
 
 .main_saintseiya {
@@ -117,7 +117,7 @@ body {
 }
 
 .main_saintseiya:hover {
-  border: solid 1px red;
+  border: solid 1px #ff3131;
 }
 
 footer {
