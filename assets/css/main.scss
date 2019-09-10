@@ -86,7 +86,7 @@ body{
     border: solid 1px #812118;
 }
 .main_superheroes:hover{
-    border: solid 1px #ff3131;
+    border: solid 1px #ff3131;  
 }
 .main_saintseiya{
     width: 30vw;
@@ -213,6 +213,40 @@ footer h3{
     text-align: center;
 }
 .product_detail ul li:hover{
+    background-color: $red_blackseller;
+}
+.product_cart{
+    display: flex;
+    justify-content:space-around;
+    background-color: #181818;
+    margin: 20px;
+    color:red;
+}
+.product_cart img{
+    height: 80px;
+    border: solid 5px gray;
+}
+.product_cart p{
+    color:white;
+}
+.product_cart ul{
+    color: white;
+    list-style: none;
+}
+.product_cart ul li{
+    width: 180px;
+    font-family: $font-headers;
+    font-size: 24px;
+    background-color: #252525;
+    padding: 0px 6px;
+    color: white;
+    border-radius: 0px 8px 0px 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 8px;
+    text-align: center;
+}
+.product_cart ul li:hover{
     background-color: $red_blackseller;
 }
 
